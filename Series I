@@ -1,0 +1,19 @@
+Write a program to generate the following series --- 1,4,9,16,25, .... 
+
+Sample Input :
+
+7
+
+Sample Output:
+
+1 4 9 16 25 36 49 
+
+
+a=1
+d=3
+n=int(input())
+print(a,end=" ")
+for i in range (2,n+1):
+    a=a+d
+    print(a,end=" ")
+    d=d+2
