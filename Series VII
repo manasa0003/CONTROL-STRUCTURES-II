@@ -1,0 +1,21 @@
+Write a program to generate the following series --- 1, 2.0, 3.0, 6.0, 9.0, 18.0, 27.0,... 
+
+Sample Input & Output:
+
+5
+
+1 2.0 3.0 6.0 9.0
+
+
+n=int(input())
+x=1
+print(x)
+y=2.0
+print(y)
+for i in range(1,n-1):
+     if(i%2!=0):
+         x=x*3.0
+         print(x)
+     else:
+         y=y*3.0
+         print(y)
